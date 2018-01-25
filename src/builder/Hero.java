@@ -8,7 +8,7 @@ public final class Hero {
     private final Weapon weapon;
     private final String name;
 
-    public Hero(Builder builder) {
+    private Hero(Builder builder) {
         this.armor = builder.armor;
         this.hairColor = builder.hairColor;
         this.hairType = builder.hairType;
